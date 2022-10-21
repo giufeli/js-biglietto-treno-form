@@ -1,20 +1,4 @@
-//const btnNome = document.querySelector("Nome")
-
-/*
-function myFunction() {
-    var result = document.getElementById("Nome").value;
-    console.log(result)
-  }
-*/
-/*
-function myFunction() {
-    const btnNome = document.querySelector("Nome").value;
-    console.log(btnNome)
-}
-*/
-
 const bottone = document.querySelector(".genera")
-
 
 bottone.addEventListener('click', function (){
     const resultNome = document.getElementById("Nome").value;    
@@ -48,5 +32,5 @@ bottone.addEventListener('click', function (){
 
 function fun(){  
     document.getElementById("myForm").reset();  
-  }   
+}   
 
