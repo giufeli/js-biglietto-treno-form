@@ -1,0 +1,11 @@
+.ticket{
+    display: none;
+}
+
+.ticket.show{
+    display: block;
+}
+
+.gray{
+    background-color: salmon;
+}
